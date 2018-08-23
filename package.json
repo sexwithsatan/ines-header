@@ -1,0 +1,8 @@
+{
+  "name": "@esnes/eskit",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
