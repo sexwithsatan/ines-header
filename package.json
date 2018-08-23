@@ -2,8 +2,7 @@
   "name": "@esnes/eskit",
   "version": "0.1.0",
   "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "module": "dist/how-long-till-lunch.js",
   "dependencies": {
     "ms": "^2.0.0"
   },
