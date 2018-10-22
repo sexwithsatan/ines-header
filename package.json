@@ -1,23 +1,14 @@
 {
-  "name": "@esnes/eskit",
+  "name": "@esnes/ines2-header",
   "version": "0.1.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.js",
-  "dependencies": {
-    "ms": "^2.0.0"
-  },
+  "module": "index.js",
   "devDependencies": {
-    "rollup": "^0.64.0",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.0.0"
+    "rollup": "^0.64.0"
   },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
     "pretest": "npm run build"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
