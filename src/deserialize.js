@@ -16,7 +16,7 @@ function deserialize([,,,,program,graphics,flags]) {
     }),
 
     // iNES mapper number
-    mapper: (flags >> 4) & 0b1111,
+    mapper: (flags >>> 4) & 0b1111,
 
     mirroring: (flags & mask.FOUR_SCREEN_MODE)
       ? undefined
