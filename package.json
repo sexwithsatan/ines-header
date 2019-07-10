@@ -1,5 +1,5 @@
 {
-  "name": "@esnes/ines2-header",
+  "name": "@esnes/ines-header",
   "version": "0.1.0",
   "module": "index.js",
   "devDependencies": {
