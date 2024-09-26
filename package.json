@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "module": "index.js",
   "devDependencies": {
-    "rollup": "^0.64.0"
+    "rollup": "^2.79.2"
   },
   "scripts": {
     "build": "rollup -c",
